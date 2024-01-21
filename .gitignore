@@ -12,3 +12,8 @@ node_modules
 # solidity-coverage files
 /coverage
 /coverage.json
+
+# temp file for contract address
+bondaddress.txt
+dvdaddress.txt
+usdaddress.txt
