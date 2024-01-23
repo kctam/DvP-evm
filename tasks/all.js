@@ -35,7 +35,7 @@ task("showAssetBalance", "Test Balance with ")
   })
 
 task("initialPositions", "Predeposit asset to buyer and seller")
-  .setAction( async (args) => {
+  .setAction( async () => {
     let usdaddress;
     let bondaddress;
     try {
@@ -73,7 +73,7 @@ task("initialPositions", "Predeposit asset to buyer and seller")
   })
 
 task("buyerInitiateDvD", "Buyer initiates a DvD ")
-  .setAction ( async (args) => {
+  .setAction ( async () => {
     let usdaddress;
     let bondaddress;
     let dvdaddress;
